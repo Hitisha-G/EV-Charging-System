@@ -130,16 +130,16 @@ contract EVChargingEcoSystem
      //uint startTime;
 
 
-    function START(uint pcs_uid,uint _amount,address payable code) payable public returns(bool) //only registered user 
-    {
+//    function START(uint pcs_uid,uint _amount,address payable code) payable public returns(bool) //only registered user 
+  //  {
         //require(amount)
         
         ///require(user.pcs_uid);
-        require(registered_user[msg.sender]!=true,'');
+//        require(registered_user[msg.sender]!=true,'');
 
-        require(pcss[pcs_uid].available==true,"station not available");
-        code.transfer(_amount);
-        return(true);
+  //      require(pcss[pcs_uid].available==true,"station not available");
+  //      code.transfer(_amount);
+  //      return(true);
 
 
         
